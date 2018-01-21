@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.kemal.gradproject.Main2Activity">
+
+    <Button
+        android:id="@id/homework"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginBottom="14dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Ödev Adası"
+        android:layout_above="@+id/spor"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@id/spor"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginBottom="31dp"
+        android:background="?android:attr/textColorLink"
+        android:text="Spor Adası"
+        android:layout_above="@+id/genel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@id/respo"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Sorumluluk"
+        android:layout_above="@+id/music"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="62dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@id/genel"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_light"
+        android:text="Genel Durum" />
+
+    <Button
+        android:id="@id/ana"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:text="Ana" />
+
+    <Button
+        android:id="@id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_green_light"
+        android:text="müzik"
+        android:layout_above="@+id/homework"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@id/speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/music"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:text="speech" />
+
+</RelativeLayout>
